@@ -4,7 +4,7 @@
 
 **OIDC Trusted Publishing + Provenance + GitHub Actions CI/CD.**
 
-Write your package. Push to publish. Zero secrets needed.
+Write your package. One-click publish. Zero secrets needed.
 
 [![CI](https://github.com/heznpc/npm-package-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/heznpc/npm-package-starter/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -53,6 +53,7 @@ npm test
 ├── scripts/
 │   └── bump-version.js         # Semver version bumper
 ├── eslint.config.js            # ESLint v9 flat config
+├── .gitignore
 ├── .npmignore                  # Keeps published package clean
 └── package.json
 ```

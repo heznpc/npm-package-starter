@@ -4,7 +4,7 @@
 
 **OIDC Trusted Publishing + Provenance + GitHub Actions CI/CD.**
 
-패키지를 만들고, push로 배포하세요. 시크릿 설정 없이.
+패키지를 만들고, 원클릭으로 배포하세요. 시크릿 설정 없이.
 
 [![CI](https://github.com/heznpc/npm-package-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/heznpc/npm-package-starter/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -53,6 +53,7 @@ npm test
 ├── scripts/
 │   └── bump-version.js         # Semver 버전 범퍼
 ├── eslint.config.js            # ESLint v9 flat config
+├── .gitignore
 ├── .npmignore                  # 배포 패키지를 깔끔하게 유지
 └── package.json
 ```
